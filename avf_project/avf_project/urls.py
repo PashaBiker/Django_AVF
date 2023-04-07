@@ -6,4 +6,5 @@ from avf_handler.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('handler/', index),
+    path('product/', find_product, name='find_product'),
 ]
